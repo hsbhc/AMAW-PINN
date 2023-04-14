@@ -414,7 +414,7 @@ def draw_exact():
     plt.colorbar()
     plt.xlabel('$x$', fontsize=20)
     plt.ylabel('$y$', fontsize=20)
-    plt.title(r'Exact $Velocity$', fontsize=20)
+    plt.title(r'Reference $Velocity$', fontsize=20)
     plt.tight_layout()
     plt.savefig('lid_driven_exact.pdf')
     plt.show()
